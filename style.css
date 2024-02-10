@@ -170,7 +170,7 @@ nav ul li a{
 /*----------------------------------------------------------
                 player list -show more phone
 ----------------------------------------------------------- */
-@media (max-width:960px) {
+@media (max-width:480px) {
     .player-list{
         /* margin: 0; */
         display: grid;
@@ -239,31 +239,32 @@ nav ul li a{
 /*------------------------------------------------------------------------------
               All-highlights section phone use only
 -------------------------------------------------------------------------------*/
-@media screen and (max-width: 480px){
+@media(max-width: 480px){
     .All-Highlights{
         display: flex;
         flex-direction: column;
         margin: 0 10px 0 10px;
     }
     .hafe-width h1{
-        width: 285px;
-        font-size:34px;
-        line-height: 40px;
+        width: 400px;
+        font-size:40px;
+        line-height: 50px;
+        text-align: start;
     }
     .hafe-width p{
-        width: 300px;
+        width: 400px;
         font-size: 14px;
         text-align: justify;
     }
     .hafe-width button{
-        font-size: 12px;
+        font-size: 16px;
         align-items: center;
         display: flex;
         text-align: center;
     }
     .hafe-width img{
-        width: 300px;
+        width: 400px;
         height: 250px;
-        margin: 10px auto;
+        margin: 15px auto;
     }
 }
